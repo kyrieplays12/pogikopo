@@ -1,0 +1,40 @@
+body{
+    background-image: url('image.jpg');
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.left {
+    width: 500%;
+    padding-right: 20px;
+}
+
+.right {
+    width: 50%;
+}
+
+
+.right img {
+    border-radius: 50%;
+}
+
+/* Style for the header */
+.header {
+    background-color: aqua; /* Light orange background color */
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for centering the text in the header */
+.center-text {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+
